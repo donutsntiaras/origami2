@@ -1,0 +1,78 @@
+
+h1{
+  color: crimson;
+}
+
+.header{
+  background-color: darkgray;
+  display: flex;
+  justify-content: inherit;
+  color: crimson;
+  font-size: 50px;  
+  text-align: center;
+}
+
+.menu{
+  justify-content: space-between;
+  background-color: darkgray;;
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  font-family:'Times New Roman';
+  font-style: inherit;
+  font-weight: bolder;
+  color: indianred;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 10px;
+}
+
+.grid img{
+  display: flexbox;
+  margin: 15px;
+  padding: 10px;
+}
+
+.site-Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ 
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.p,h2{
+  text-align: left;
+  text-decoration-color: coral;
+  text-size-adjust: 20;
+}
+
+body{
+  background-color: rgb(248, 248, 218);
+  color: #080808;
+  text-align: left;
+  
+}
+
+.origami{
+  margin: 10px;
+  padding: 5px;
+  background-color: #f5deb3;
+  width: 30px;
+
+}
