@@ -76,3 +76,34 @@ body{
   width: 30px;
 
 }
+
+
+a:link{
+  color: #00008b;
+  
+}
+
+a:visited{
+  color: #9400d3;
+}
+
+.item{
+  position: relative;
+}
+
+.item p{
+  position: absolute;
+  left: 350%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+
+.item:hover p {
+  opacity: 1;
+
+}
+
+.item:hover image{
+  opacity: 0.04;
+}
